@@ -1,0 +1,14 @@
+1) 
+	private boolean addComment(String author, String text, int rating) 메소드의
+	"if(findCommentByAuthor(author) == null) {... "를 
+	"if(findCommentByAuthor(author) != null) {..."로 바꾼다.
+
+2)
+	private boolean ratingInvalid(int rating) 메소드의
+	"return rating <= 1 || rating > 5"를
+	"return rating < 1 || rating > 5"로 바꾼다
+
+3)
+	public Comment findMostHelpfulComment() 메소드의
+	"if(current.getVoteCount() < best.getVoteCount()) {..."를
+	"if(current.getVoteCount() > best.getVoteCount()) {..."로 바꾼다.

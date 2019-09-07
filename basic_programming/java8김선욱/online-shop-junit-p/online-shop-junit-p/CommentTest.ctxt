@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CommentTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ CommentTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Test\ fixture\uB97C\ \uC124\uC815\uD55C\uB2E4.\r\n\r\n\ \uC774\ \uBA54\uC18C\uB4DC\uB294\ \uAC01\ \uD14C\uC2A4\uD2B8\ \uBA54\uC18C\uB4DC\uAC00\ \uD638\uCD9C\uB420\ \uB54C\uB9C8\uB2E4\ \uD638\uCD9C\uB418\uBA70,\ \uAC01\ \uD14C\uC2A4\uD2B8\uBA54\uC18C\uB4DC\uC5D0\ \uC55E\uC11C\ \uC2E4\uD589\uB41C\uB2E4.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\r\n\ \uC774\ \uBA54\uC18C\uB4DC\uB294\ \uAC01\ \uD14C\uC2A4\uD2B8\ \uBA54\uC18C\uB4DC\uAC00\ \uD638\uCD9C\uB420\ \uB54C\uB9C8\uB2E4\ \uD638\uCD9C\uB418\uBA70,\ \uAC01\ \uD14C\uC2A4\uD2B8\uBA54\uC18C\uB4DC\ \uD6C4\uC5D0\ \uC2E4\uD589\uB41C\uB2E4.\r\n
+comment3.params=
+comment3.target=void\ testGetAuthor()
+comment3.text=\r\n\ getAuthor\ \uBA54\uC18C\uB4DC\uAC00\ \uC81C\uB300\uB85C\ \uC791\uB3D9\uD558\uB294\uC9C0\ \uAC80\uC0AC\uD55C\uB2E4.\r\n
+comment4.params=
+comment4.target=void\ testGetRating()
+comment4.text=\r\n\ getRating\ \uBA54\uC18C\uB4DC\uAC00\ \uC81C\uB300\uB85C\ \uC791\uB3D9\uD558\uB294\uC9C0\ \uAC80\uC0AC\uD55C\uB2E4.\r\n
+comment5.params=
+comment5.target=void\ testVoting()
+comment5.text=\r\n\ upvote,\ downvote,\ getVoteCount\uAC00\ \uC81C\uB300\uB85C\ \uC791\uB3D9\uD558\uB294\uC9C0\ \uAC80\uC0AC\uD55C\uB2E4.\r\n
+numComments=6

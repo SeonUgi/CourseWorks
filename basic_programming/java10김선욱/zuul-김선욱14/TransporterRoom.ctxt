@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=description\ scene
+comment0.target=TransporterRoom(java.lang.String,\ Scenario)
+comment0.text=\r\n\ Create\ a\ room\ that\ can\ beam\ you\ anywhere.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getExitString()
+comment1.text=\r\n\ Describe\ the\ exits.\ Since\ this\ is\ a\ transporter\ room,\ you\ see\ no\r\n\ clear\ exits.\r\n
+comment2.params=direction
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ Return\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\r\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\r\n
+numComments=3

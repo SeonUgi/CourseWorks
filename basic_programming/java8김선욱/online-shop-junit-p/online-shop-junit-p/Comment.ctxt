@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=author\ text\ rating
+comment0.target=Comment(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ \uAD6C\uC131\uC790\r\n\ @param\ author\ \uC791\uC131\uC790\r\n\ @param\ text\ \uD3C9\uAC00\uBB38\r\n\ @param\ rating\ \uBCC4\uC810\ (1\uC810\ -\ 5\uC810)\r\n
+comment1.params=
+comment1.target=void\ upvote()
+comment1.text=\r\n\ \uC774\ \uC0C1\uD488\uD3C9\uC774\ \uC720\uC6A9\uD558\uB2E4\uACE0\ \uD22C\uD45C\uD55C\uB2E4.\ \r\n\ "\uC774\ \uC0C1\uD488\uD3C9\uC774\ \uB3C4\uC6C0\uC774\ \uB418\uC5C8\uB098\uC694?"\ \uC9C8\uBB38\uC5D0\ "\uC608"\uB97C\ \uD074\uB9AD\uD558\uBA74\ \uC774\ \uBA54\uC18C\uB4DC\uAC00\ \uC2E4\uD589\uB41C\uB2E4.\r\n
+comment2.params=
+comment2.target=void\ downvote()
+comment2.text=\r\n\ \uC774\ \uC0C1\uD488\uD3C9\uC774\ \uC720\uC6A9\uD558\uC9C0\ \uC54A\uB2E4\uACE0\ \uD22C\uD45C\uD55C\uB2E4.\ \r\n\ "\uC774\ \uC0C1\uD488\uD3C9\uC774\ \uB3C4\uC6C0\uC774\ \uB418\uC5C8\uB098\uC694?"\ \uC9C8\uBB38\uC5D0\ "\uC544\uB2C8\uC624"\uB97C\ \uD074\uB9AD\uD558\uBA74\ \uC774\ \uBA54\uC18C\uB4DC\uAC00\ \uC2E4\uD589\uB41C\uB2E4.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getAuthor()
+comment3.text=\r\n\ Return\ the\ author(\uC791\uC131\uC790)\ of\ this\ comment.\r\n
+comment4.params=
+comment4.target=int\ getRating()
+comment4.text=\r\n\ Return\ the\ rating\ (\uBCC4\uC810)\ of\ this\ comment.\r\n
+comment5.params=
+comment5.target=int\ getVoteCount()
+comment5.text=\r\n\ Return\ the\ vote\ count\ (upvotes\ \uBE7C\uAE30\ downvotes).\r\n
+comment6.params=
+comment6.target=java.lang.String\ getFullDetails()
+comment6.text=\r\n\ Return\ the\ full\ text\ and\ details\ of\ the\ comment,\ including\ \r\n\ the\ comment\ text,\ author\ and\ rating.\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MemoryGamePanel()
+comment1.params=
+comment1.target=void\ getImages()
+comment2.params=path\ description
+comment2.target=javax.swing.ImageIcon\ createImageIcon(java.lang.String,\ java.lang.String)
+comment2.text=\ ImageIcon\uC744\ \uBC18\uD658,\r\n\ \uB2E8,\ path\uAC00\ \uC720\uD6A8\uD558\uC9C0\ \uC54A\uC740\ \uACBD\uC6B0\uC5D0\uB294\ null\uC744\ \uBC18\uD658.\r\n\ @param\ path\ \uADF8\uB9BC\ \uD30C\uC77C\ \uACBD\uB85C\uBA85\ (\uAC00\uB839,\ "C\:\\images\\smile.jpg").\r\n\ @param\ description\ \uADF8\uB9BC\uC5D0\ \uB300\uD55C\ \uC124\uBA85.\r\n\ @return\ \uADF8\uB9BC\uD30C\uC77C\uB85C\uBD80\uD130\ \uB9CC\uB4E4\uC5B4\uC9C4\ ImageIcon\ (path\uAC00\ \uC720\uD6A8\uD55C\ \uACBD\uC6B0),\r\n\ \ \ \ \ \ \ \ \ \ null\ (path\uAC00\ \uC720\uD6A8\uD558\uC9C0\ \uC54A\uC740\ \uACBD\uC6B0).\r\n
+comment3.params=
+comment3.target=void\ shuffle()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

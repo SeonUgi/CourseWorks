@@ -1,0 +1,4 @@
+XML was designed by a working group of eleven members, supported by an (approximately) 
+150-member Interest Group. Technical debate took place on the Interest Group mailing list 
+and issues were resolved by consensus or, when that failed, majority vote of the Working Group. 
+The decision record was compiled by Michael Sperberg-McQueen on December 4th 1997. 

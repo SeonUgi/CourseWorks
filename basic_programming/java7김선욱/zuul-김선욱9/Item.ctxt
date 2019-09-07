@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=itemName\ itemDescription\ itemWeight
+comment0.target=Item(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ \uAD6C\uC131\uC790\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ \uC544\uC774\uD15C\ \uC774\uB984\uC744\ \uBC18\uD658\uD55C\uB2E4.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment2.text=\r\n\ \uC544\uC774\uD15C\uC5D0\ \uB300\uD55C\ \uC124\uBA85\uC744\ \uBC18\uD658\uD55C\uB2E4.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getWeight()
+comment3.text=\r\n\ \uC544\uC774\uD15C\uC5D0\ \uB300\uD55C\ \uBB34\uAC8C\uB97C\ \uBC18\uD658\uD55C\uB2E4.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getLongDescription()
+comment4.text=\r\n\ \uC544\uC774\uD15C\uC5D0\ \uB300\uD574\ \uC124\uBA85\uD558\uB294\ \uBB38\uC790\uC5F4\uC744\ \uCD9C\uB825\uD55C\uB2E4.\r\n
+numComments=5

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=author
+comment0.target=CommentedPost(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ CommentedPost\r\n
+numComments=1

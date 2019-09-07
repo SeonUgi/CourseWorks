@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SalesItemTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ SalesItemTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ testGetName()
+comment2.text=\r\n\ SalesItem\uC758\ \uC774\uB984\uC744\ \uC81C\uB300\uB85C\ \uC5BB\uB294\uC9C0\ \uC2DC\uD5D8\uD55C\uB2E4.\r\n
+comment3.params=
+comment3.target=void\ testGetPrice()
+comment3.text=\r\n\ SalesItem\uC758\ \uAC00\uACA9\uC744\ \uC81C\uB300\uB85C\ \uC5BB\uB294\uC9C0\ \uC2DC\uD5D8\uD55C\uB2E4.\r\n
+comment4.params=
+comment4.target=void\ testComment()
+comment4.text=\r\n\ SalesItem\uC5D0\ Comment\uB97C\ \uC81C\uB300\uB85C\ \uCD94\uAC00\uD558\uB294\uC9C0\ \uAC80\uC0AC\uD55C\uB2E4.\r\n\ SalesItem\uC5D0\ \uB2EC\uB824\ \uC788\uB294\ Comment\ \uAC1C\uC218\uB97C\ \uC81C\uB300\uB85C\ \uC5BB\uB294\uC9C0\ \uAC80\uC0AC\uD55C\uB2E4.\r\n
+comment5.params=
+comment5.target=void\ testGetComment()
+comment5.text=\r\n\ SalesItem\uC758\ GetComment\uBA54\uC18C\uB4DC\uB97C\ \uC2DC\uD5D8\uD55C\uB2E4.\r\n
+comment6.params=
+comment6.target=void\ testFindMostHelpfulComment()
+comment6.text=\r\n\ SalesItem\uC758\ Comment\uB4E4\ \uC911\uC5D0\uC11C\ \uAC00\uC7A5\ \uD45C\uB97C\ \uB9CE\uC774\ \uBC1B\uC558\uB294\uC9C0\uB97C\ \uC2DC\uD5D8\uD55C\uB2E4.\r\n
+comment7.params=
+comment7.target=void\ tearDown()
+comment7.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=8
