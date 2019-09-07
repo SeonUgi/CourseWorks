@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            color: white;
+            width: 40%;
+            margin: 3px 30% 0px;
+            animation-name: ani1;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+        }
+        table {
+            color: white;
+            width: 76%;
+            height: 400px;
+            margin: 25px 12% 0px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        td, th {
+            animation-name: ani2;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+        }
+        p {
+            color: white;
+            margin: 4% 18% 0px;
+            text-align: right;
+        }
+        @keyframes ani1
+        {
+	        0%{border: 2px dotted #FF0000;}
+	        10%{border: 2px dotted #FF5E00;}
+	        20%{border: 2px dotted #FFBB00;}
+	        30%{border: 2px dotted #FFE400;}
+	        40%{border: 2px dotted #ABF200;}
+	        50%{border: 2px dotted #1DDB16;}
+	        60%{border: 2px dotted #00D8FF;}
+	        70%{border: 2px dotted #0054FF;}
+	        80%{border: 2px dotted #0100FF;}
+	        90%{border: 2px dotted #5F00FF;}
+	        100%{border: 2px dotted #FF00DD;}
+        }
+        @keyframes ani2
+        {
+	        0%{border: 2px dotted #0100FF;}
+	        10%{border: 2px dotted #FFBB00;}
+	        20%{border: 2px dotted #FFE400;}
+	        30%{border: 2px dotted #FF0000;}
+	        40%{border: 2px dotted #FF5E00;}
+	        50%{border: 2px dotted #1DDB16;}
+	        60%{border: 2px dotted #0054FF;}
+	        70%{border: 2px dotted #FF00DD;}
+	        80%{border: 2px dotted #ABF200;}
+	        90%{border: 2px dotted #00D8FF;}
+	        100%{border: 2px dotted #5F00FF;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Schedule / Result</h1>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Teams</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>May 31</td>
+            <td>Final</td>
+            <td>GSW @ Tor</td>
+            <td>109 : 118</td>
+        </tr>
+        <tr>
+            <td>June 3</td>
+            <td>Final</td>
+            <td>GSW @ Tor</td>
+            <td>109 : 104</td>
+        </tr>
+        <tr>
+            <td>June 6</td>
+            <td>Final</td>
+            <td>Tor @ GSW</td>
+            <td>123 : 109</td>
+        </tr>
+        <tr>
+            <td>June 8</td>
+            <td>Final</td>
+            <td>Tor @ GSW</td>
+            <td>105 : 92</td>
+        </tr>
+        <tr>
+            <td>June 11</td>
+            <td>AM 10:00</td>
+            <td>GSW @ Tor</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>June 14</td>
+            <td>AM 10:00</td>
+            <td>Tor @ GSW</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>June 17</td>
+            <td>AM 09:00</td>
+            <td>GSW @ Tor</td>
+            <td>-</td>
+        </tr>
+    </table>
+    <p>Tip : Away Team @ Home Team</p>
+</body>
+</html>

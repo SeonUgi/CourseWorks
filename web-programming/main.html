@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#function_bar {
+			height: 25px;
+			background-color: grey;
+			padding: 5px;
+			margin: 0px;
+		}
+		#function_bar li {
+			display: inline-block;
+		}
+		#function_left {
+			float: left;
+			width: 5%;
+		}
+		#function_right {
+			width: 7%;
+			float: right;
+		}
+		#empty_space {
+			width: 88%;
+			text-align: center;
+		}
+		#ball_move {
+			margin: 10px;
+			opacity: 0.1;
+		}
+		#ball_move:hover {
+			transform: translate(80%, 0);
+			transition: transform 30s;
+			opacity: 1.0;
+		}
+		#ball_rotate:hover {
+			transform: rotate(1440deg);
+			transition: transform 25s;
+		}
+		#menu_bar {
+			background-color: #796245;
+			float: left;
+			height: 700px;
+			padding: 8px;
+			margin-left: 10%;
+		}
+		#menu_bar img {
+			width: 125px;
+			height: 125px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding: 0px 8px; 0px;
+		}
+		#menu_bar img:hover {
+			opacity: 0.5;
+		}
+
+		#logout {
+			text-align: center;
+			padding: 0px 42px 0px;
+			margin: 0px 2px 0px;
+		}
+		#frame {
+			background-image: url('./data/frame_background2.png');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		.clear {
+            clear: both;
+            padding: 65px;
+        }
+		button {
+            background: #203767;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            font-family: "맑은 고딕";
+            padding: 2px 2px 4px;
+        }
+        #logout {
+        	margin-left: 6px;
+        }
+	</style>
+	<meta charset="UTF-8">
+</head>
+<body>
+<header>
+	<ul id="function_bar">
+		<li id="function_left">
+			<button type="button" onclick="color_change()">Change</button>
+			<script>
+				function color_change() {
+					var goal = document.getElementById("function_bar");
+					var goal2 = document.getElementById("menu_bar");
+					var colorCode = "#" + Math.round(Math.random() * 0xffffff).toString(16);
+					goal.style.backgroundColor=colorCode;
+					colorCode = "#" + Math.round(Math.random() * 0xffffff).toString(16);
+					goal2.style.backgroundColor=colorCode;
+				}
+			</script>
+		</li>
+		<li id="empty_space"></li>
+		<li id="function_right">
+			<audio id="bgm" src="./data/music.mp3"></audio>
+			<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+			<script>
+				function aud_play_pause() {
+					var myAudio = document.getElementById("bgm");
+					if (myAudio.paused) {
+						myAudio.play();
+					} else {
+						myAudio.pause();
+					}
+				}
+			</script>
+		</li>
+	</ul>
+</header>
+<div id="ball_move"><img id="ball_rotate"src="./data/ball.png" width="110px" height="110px"></div>
+<hr>
+<nav id="menu_bar">
+	<div>
+		<a href="bracket.html" target="content"><img src="./data/bracket_logo.png"></a>
+	</div>
+	<hr>
+	<div>
+		<a href="schedule.html" target="content"><img src="./data/schedule.png"></a>
+	</div>
+	<hr>
+	<div>
+		<a href="main.html"><img src="./data/main.png"></a>
+	</div>
+	<hr>
+	<div class="clear"></div>
+	<hr>
+	<a href="login.html"><button type="button" id="logout">Log Out</button></a>
+</nav>
+<iframe src="main_frame.html" id="frame" name="content" width="72%" height="713px"></iframe>
+</body>
+</html>

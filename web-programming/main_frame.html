@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 5%;
+            transition: transform 1s;
+            animation-name: ani1;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+        }
+        video {
+            text-align: center;
+            margin:20px 15% 0px;
+        }
+
+        @keyframes ani1
+        {
+	        0%{color: #FF0000;}
+	        10%{color: #FF5E00;}
+	        20%{color: #FFBB00;}
+	        30%{color: #FFE400;}
+	        40%{color: #ABF200;}
+	        50%{color: #1DDB16;}
+	        60%{color: #00D8FF;}
+	        70%{color: #0054FF;}
+	        80%{color: #0100FF;}
+	        90%{color: #5F00FF;}
+	        100%{color: #FF00DD;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To Basketball</h1>
+    <video src="./data/main_video.mp4" width="70%" height="45%" autoplay loop controls></video>
+</body>
+</html>
